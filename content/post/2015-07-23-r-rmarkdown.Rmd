@@ -19,7 +19,6 @@ library(dplyr)
 
 # get package
 package <- show_package("fc4d95a6-591f-411f-af17-327e6c5d03c7")
-package
 
 # get all resources for this package
 resources <- list_package_resources("fc4d95a6-591f-411f-af17-327e6c5d03c7")

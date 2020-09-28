@@ -72,21 +72,20 @@
     
 
     <div class="article-content">
-      <h2 id="input-data">Input data</h2>
+      
+
+
+<div id="input-data" class="section level2">
+<h2>Input data</h2>
 <pre><code>## 
-## Attaching package: 'dplyr'
-</code></pre><pre><code>## The following objects are masked from 'package:stats':
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
 ## 
-##     filter, lag
-</code></pre><pre><code>## The following objects are masked from 'package:base':
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
 ## 
-##     intersect, setdiff, setequal, union
-</code></pre><pre><code>## # A tibble: 1 x 10
-##   title id    topics civic_issues excerpt dataset_category num_resources formats
-##   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt;   &lt;chr&gt;                    &lt;int&gt; &lt;chr&gt;  
-## 1 Neig… fc4d… &lt;NA&gt;   &lt;NA&gt;         &lt;NA&gt;    &lt;NA&gt;                         1 &lt;NA&gt;   
-## # … with 2 more variables: refresh_rate &lt;chr&gt;, last_refreshed &lt;date&gt;
-</code></pre><pre><code>## Simple feature collection with 140 features and 61 fields
+##     intersect, setdiff, setequal, union</code></pre>
+<pre><code>## Simple feature collection with 140 features and 61 fields
 ## geometry type:  POLYGON
 ## dimension:      XY
 ## bbox:           xmin: -79.63923 ymin: 43.581 xmax: -79.1152 ymax: 43.85545
@@ -124,15 +123,22 @@
 ## #   TheftOver_2016 &lt;int&gt;, TheftOver_2017 &lt;int&gt;, TheftOver_2018 &lt;int&gt;,
 ## #   TheftOver_2019 &lt;int&gt;, TheftOver_AVG &lt;dbl&gt;, TheftOver_CHG &lt;dbl&gt;,
 ## #   TheftOver_Rate_2019 &lt;dbl&gt;, Shape__Area &lt;dbl&gt;, Shape__Length &lt;dbl&gt;,
-## #   geometry &lt;POLYGON [°]&gt;
-</code></pre><h2 id="intoduction">Intoduction</h2>
-<p>In a modern city like Toronto, Auto theft always exist. As the number of auto mobile vechicles increase, people&rsquo;s methods of preventing the theft are also more ane more advanced. In this paper, we will auto theft problem between 2014 to 2019 using the data about the number of Auto theft in each neighbourhood during this time period. The main finds include that most of the neighbourhoods in Toronto had no more than 50 Auto Theft cases during 2014 to 2019. There were always 5 to 6 neighbourhoods with serious auto theft issues with around 100 cases, or even more than 300. West Humber-Clairville was a neighbourhood whose problem was extremely serious, and even worse in 2019.</p>
-<p>In this paper, I choose the data from open data Toronto. The original data set is about the Neighbourhood crime rate of different categories of crime between 2014 and 2019. I draw histograms for each year&rsquo;s Auto theft counts to see the distribution and boxplots to see the centre, spread and outliers. Both the histograms and the boxplots are very similar between years. Also, there isn&rsquo;t much distinction on the median and spread, as well. Therefore, the number of auto theft in each Toronto neighbourhoods hasn&rsquo;t changed much between years. For the neighbourhood which has an extremely high number of auto theft , I have searched for the online resource that it is a place with large number of theft. And the data shows that it still suffers from the problem.</p>
-<p>The paper first includes original data along with a description. The following are graphs including 6 histograms and 6 boxplots. The discussion and reference are under the graphs. Since the data shows that the number of auto theft in Toronto neighbourhoods hasn&rsquo;t changed much, it may indicate that there is some actions needed in the future to mitigate the issue. This analyze also has limitation and weakness. Since the data ends by 2019, it is not accurate to say that the situation now is still align with the situation reflected from the data. If we want it to be more accurate, we still need to collect the data in the future and do the same analyze to compare.</p>
-<h2 id="description-of-dataset">Description of dataset</h2>
-<h3 id="background">Background:</h3>
+## #   geometry &lt;POLYGON [°]&gt;</code></pre>
+</div>
+<div id="intoduction" class="section level2">
+<h2>Intoduction</h2>
+<p>In a modern city like Toronto, Auto theft always exist. As the number of auto mobile vechicles increase, people’s methods of preventing the theft are also more ane more advanced. In this paper, we will auto theft problem between 2014 to 2019 using the data about the number of Auto theft in each neighbourhood during this time period. The main finds include that most of the neighbourhoods in Toronto had no more than 50 Auto Theft cases during 2014 to 2019. There were always 5 to 6 neighbourhoods with serious auto theft issues with around 100 cases, or even more than 300. West Humber-Clairville was a neighbourhood whose problem was extremely serious, and even worse in 2019.</p>
+<p>In this paper, I choose the data from open data Toronto. The original data set is about the Neighbourhood crime rate of different categories of crime between 2014 and 2019. I draw histograms for each year’s Auto theft counts to see the distribution and boxplots to see the centre, spread and outliers. Both the histograms and the boxplots are very similar between years. Also, there isn’t much distinction on the median and spread, as well. Therefore, the number of auto theft in each Toronto neighbourhoods hasn’t changed much between years. For the neighbourhood which has an extremely high number of auto theft , I have searched for the online resource that it is a place with large number of theft. And the data shows that it still suffers from the problem.</p>
+<p>The paper first includes original data along with a description. The following are graphs including 6 histograms and 6 boxplots. The discussion and reference are under the graphs. Since the data shows that the number of auto theft in Toronto neighbourhoods hasn’t changed much, it may indicate that there is some actions needed in the future to mitigate the issue. This analyze also has limitation and weakness. Since the data ends by 2019, it is not accurate to say that the situation now is still align with the situation reflected from the data. If we want it to be more accurate, we still need to collect the data in the future and do the same analyze to compare.</p>
+</div>
+<div id="description-of-dataset" class="section level2">
+<h2>Description of dataset</h2>
+<div id="background" class="section level3">
+<h3>Background:</h3>
 <p>This dataset is about the neighbourhood crime data from 2014 to 2019. It includes the number of auto theft, assault, robbery, homicide, theft over and break and enter for each year. Also, based on the 2016 Census population, it includes five year averages and neighbourhood crime rates per 100,000 people.</p>
-<h3 id="description-of-variables">Description of variables:</h3>
+</div>
+<div id="description-of-variables" class="section level3">
+<h3>Description of variables:</h3>
 <p>_id: unique row identifier(int)
 OBJECTID: Autogenerated distinct record identifier(int)
 Neighbourhood: name of Toronto neighbourhood (chr)
@@ -159,7 +165,10 @@ TheftOver_CHG: Percentage Change in thefts over from 2018-2019(dbl)
 TheftOver_Rate_2019: Rate of thefts over for 2019 per 100,000 population (dbl)
 Shape__Area: Autogenerated area measurement (dbl)
 Shape__Length: Autogenerated length measurement (dbl)</p>
-<h1 id="category-of-data">Category of data</h1>
+</div>
+</div>
+<div id="category-of-data" class="section level1">
+<h1>Category of data</h1>
 <pre><code>## Rows: 140
 ## Columns: 62
 ## $ `_id`                   &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14…
@@ -223,29 +232,30 @@ Shape__Length: Autogenerated length measurement (dbl)</p>
 ## $ TheftOver_Rate_2019     &lt;dbl&gt; 100.7, 75.3, 33.7, 19.1, 177.2, 51.5, 22.5, 1…
 ## $ Shape__Area             &lt;dbl&gt; 2286974, 10964574, 7299580, 1062970, 7966905,…
 ## $ Shape__Length           &lt;dbl&gt; 10802.832, 43080.725, 13025.997, 5940.700, 12…
-## $ geometry                &lt;POLYGON [°]&gt; POLYGON ((-79.42774 43.6297..., POLYG…
-</code></pre><h2 id="find-something-interesting-with-graphs">Find something interesting with graphs</h2>
-<pre><code>## ── Attaching packages ────────────────────────────────────────────────── tidyverse 1.3.0 ──
-</code></pre><pre><code>## ✓ ggplot2 3.3.2     ✓ purrr   0.3.4
+## $ geometry                &lt;POLYGON [°]&gt; POLYGON ((-79.42774 43.6297..., POLYG…</code></pre>
+<div id="find-something-interesting-with-graphs" class="section level2">
+<h2>Find something interesting with graphs</h2>
+<pre><code>## ── Attaching packages ────────────────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.2     ✓ purrr   0.3.4
 ## ✓ tibble  3.0.3     ✓ stringr 1.4.0
 ## ✓ tidyr   1.1.2     ✓ forcats 0.5.0
-## ✓ readr   1.3.1
-</code></pre><pre><code>## ── Conflicts ───────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✓ readr   1.3.1</code></pre>
+<pre><code>## ── Conflicts ───────────────────────────────────────────────────── tidyverse_conflicts() ──
 ## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
-</code></pre><pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad
-</code></pre><p><!-- raw HTML omitted --></p>
-<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad
-</code></pre><p><!-- raw HTML omitted --></p>
-<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad
-</code></pre><p><!-- raw HTML omitted --></p>
-<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad
-</code></pre><p><!-- raw HTML omitted --></p>
-<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad
-</code></pre><p><!-- raw HTML omitted --></p>
-<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad
-</code></pre><p><!-- raw HTML omitted -->
-<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad</code></pre>
+<p><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad</code></pre>
+<p><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-2.png" width="672" /></p>
+<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad</code></pre>
+<p><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-3.png" width="672" /></p>
+<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad</code></pre>
+<p><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-4.png" width="672" /></p>
+<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad</code></pre>
+<p><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-5.png" width="672" /></p>
+<pre><code>## Warning: Ignoring unknown parameters: binwidth, bins, pad</code></pre>
+<p><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-3-6.png" width="672" />
+<img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-1.png" width="672" /><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-2.png" width="672" /><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-3.png" width="672" /></p>
 <pre><code>##   [1]  13  18  15  11  66  36   8  31  42  17   8  14   5  21   1  21  14  11
 ##  [19]  12  41  13   2  15  20  57  24 305  30  26  57  16  70  18  21   3   4
 ##  [37]  21  17  14   4  14  13  11  25  11   8  11  27  48  28  25  51  23   9
@@ -292,8 +302,8 @@ Shape__Length: Autogenerated length measurement (dbl)</p>
 ## [775]  25  15 161  11  50  71  57  31  87  88  22  16  11   7  50  16  22  12
 ## [793]  32  72   9  42  60   7  37  66  36  11  21  49  28  34  12  71   6  26
 ## [811]   9  31  18  13  60   8  47  12   9  27  83  24   7  32  19   6 144  32
-## [829]  61  34  25  20  50  13   9  16 172   7  37  18
-</code></pre><pre><code>##     X2014 X2015 X2016 X2017 X2018 X2019
+## [829]  61  34  25  20  50  13   9  16 172   7  37  18</code></pre>
+<pre><code>##     X2014 X2015 X2016 X2017 X2018 X2019
 ## 1      13    20    23    19    17    20
 ## 2      18    23    27    37    40    40
 ## 3      15    25    10    15    21    35
@@ -433,13 +443,17 @@ Shape__Length: Autogenerated length measurement (dbl)</p>
 ## 137    91   104   135    97   160   172
 ## 138     7     4     5     4    10     7
 ## 139     7    18     8    11    14    37
-## 140    20    15     9    21    20    18
-</code></pre><p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h2 id="discussion-of-graphs-and-findings">Discussion of graphs and findings</h2>
+## 140    20    15     9    21    20    18</code></pre>
+<p><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-4.png" width="672" /><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-5.png" width="672" /><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-6.png" width="672" /><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-7.png" width="672" /><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-8.png" width="672" /><img src="../../../../post/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-4-9.png" width="672" /></p>
+</div>
+<div id="discussion-of-graphs-and-findings" class="section level2">
+<h2>Discussion of graphs and findings</h2>
 <p>In this assignment, I mainly focus on exploring the situation of AutoTheft in Toronto Neighbourhood from 2014 to 2019.</p>
 <p>Firstly, I draw a histogram of the number of Auto Theft for each year. The distributions of the number of Auto Theft for each year from 2014 to 2019 are very similar. It shows a skewness to the right. The maximum frequency often falls around 10 to 15. For year of 2015 and 2016, the shape of distribution come to be bimodal, the maximum frequency also falls around 20 to 25 except for the one we have mentioned. From the right side of each histograms, we can also see some data that could be outliers, which show extremely high quantity of auto thefts. In 2017, the number of neighbourhoods with more than 100 Auto Theft cases is 1, which is the least. In 2019, there are 5 neighbourhoods with more than 100 auto thefts, which is the most. For each year, there is a neighbourhood called West humber-clairville having around 300 AutoTheft cases, even close to 500 in 2019.</p>
-<p>Secondly, we put each year&rsquo;s Toronto neighbourhood auto theft data into boxplots to see the centre, spread and outliers.The shapes of boxplots for each year are not so much different. All of their median are around 20 per year. 75% of data are below 50 per year, which is very concentrated. Also, for each year the IQR is about 30, not very large. Each year, there will be 5 to 6 upper outliers while there isn&rsquo;t any outliers below.</p>
+<p>Secondly, we put each year’s Toronto neighbourhood auto theft data into boxplots to see the centre, spread and outliers.The shapes of boxplots for each year are not so much different. All of their median are around 20 per year. 75% of data are below 50 per year, which is very concentrated. Also, for each year the IQR is about 30, not very large. Each year, there will be 5 to 6 upper outliers while there isn’t any outliers below.</p>
 <p>Overall, except for the fluctuation of outliers, the centre, spread and the number of outliers of Auto Theft in Toronto Neighbourhoods has been relativley steady from 2014 to 2019. The Auto Theft problem is not very serious for most neighbourhoods. While for neighbourhoods with serious Auto Theft problem, the situation has not been mitigated, yet.</p>
+</div>
+</div>
 
     </div>
   </article>
