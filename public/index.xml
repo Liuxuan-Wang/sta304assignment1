@@ -27,15 +27,6 @@
     </item>
     
     <item>
-      <title>Toronto Neighbourhood Auto Theft situation from 2014 to 2019</title>
-      <link>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</guid>
-      <description>Input data ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union ## Simple feature collection with 140 features and 61 fields ## geometry type: POLYGON ## dimension: XY ## bbox: xmin: -79.63923 ymin: 43.581 xmax: -79.1152 ymax: 43.85545 ## CRS: EPSG:4326 ## # A tibble: 140 x 62 ## `_id` OBJECTID Neighbourhood Hood_ID Population Assault_2014 Assault_2015 ## &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; ## 1 1 16 South Parkda… 085 21849 202 226 ## 2 2 17 South Riverd… 070 27876 215 207 ## 3 3 18 St.</description>
-    </item>
-    
-    <item>
       <title>Lorem Ipsum</title>
       <link>/2015/01/01/lorem-ipsum/</link>
       <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
