@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Markdown on A Hugo website</title>
+    <link>/tags/r-markdown/</link>
+    <description>Recent content in R Markdown on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate><atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Toronto Neighbourhood Auto Theft situation from 2014 to 2019</title>
+      <link>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</guid>
+      <description>Input data ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union ## # A tibble: 1 x 10 ## title id topics civic_issues excerpt dataset_category num_resources formats ## &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; ## 1 Neig… fc4d… &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; 1 &amp;lt;NA&amp;gt; ## # … with 2 more variables: refresh_rate &amp;lt;chr&amp;gt;, last_refreshed &amp;lt;date&amp;gt; ## Simple feature collection with 140 features and 61 fields ## geometry type: POLYGON ## dimension: XY ## bbox: xmin: -79.</description>
+    </item>
+    
+    <item>
+      <title>Toronto Neighbourhood Auto Theft situation from 2014 to 2019</title>
+      <link>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</guid>
+      <description>Input data ## ## Attaching package: &#39;dplyr&#39; ## The following objects are masked from &#39;package:stats&#39;: ## ## filter, lag ## The following objects are masked from &#39;package:base&#39;: ## ## intersect, setdiff, setequal, union ## # A tibble: 1 x 10 ## title id topics civic_issues excerpt dataset_category num_resources formats ## &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; ## 1 Neig… fc4d… &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; 1 &amp;lt;NA&amp;gt; ## # … with 2 more variables: refresh_rate &amp;lt;chr&amp;gt;, last_refreshed &amp;lt;date&amp;gt; ## Simple feature collection with 140 features and 61 fields ## geometry type: POLYGON ## dimension: XY ## bbox: xmin: -79.</description>
+    </item>
+    
+    <item>
+      <title>Toronto Neighbourhood Auto Theft situation from 2014 to 2019</title>
+      <link>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/2015/07/23/toronto-neighbourhood-auto-theft-situation-from-2014-to-2019/</guid>
+      <description>Input data ## ## Attaching package: &#39;dplyr&#39; ## The following objects are masked from &#39;package:stats&#39;: ## ## filter, lag ## The following objects are masked from &#39;package:base&#39;: ## ## intersect, setdiff, setequal, union ## # A tibble: 1 x 10 ## title id topics civic_issues excerpt dataset_category num_resources formats ## &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; ## 1 Neig… fc4d… &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; &amp;lt;NA&amp;gt; 1 &amp;lt;NA&amp;gt; ## # … with 2 more variables: refresh_rate &amp;lt;chr&amp;gt;, last_refreshed &amp;lt;date&amp;gt; ## Simple feature collection with 140 features and 61 fields ## geometry type: POLYGON ## dimension: XY ## bbox: xmin: -79.</description>
+    </item>
+    
+  </channel>
+</rss>
